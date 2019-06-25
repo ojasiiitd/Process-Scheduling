@@ -25,6 +25,7 @@ class Process
  }
 }
 
+// Custom Comparator for priority queue
 class Sortbystart implements Comparator<Process>
 {
 	public int compare(Process a, Process b)
@@ -33,7 +34,7 @@ class Sortbystart implements Comparator<Process>
 	}
 }
 
-public class Lab9
+public class scheduler
 {
 	public Process[] Heap;
 	public int size = 0;
